@@ -11,10 +11,10 @@
   - Easy to Develope
   - Easy to understand
   - Easy for testing
- 
- 
+  
+  
  1- The application contains 3 Tables in Database.
-      - InsuranceTable \n
+      - InsuranceTable
       - DoctorTable (contains the foreign key of the insurance id)
       - MessageTable (contains the foreign key of the doctor id)
   
