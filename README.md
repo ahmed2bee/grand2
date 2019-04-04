@@ -13,6 +13,7 @@
   - Easy for testing
   
   
+  
  1- The application contains 3 Tables in Database.
  
       - InsuranceTable
@@ -20,7 +21,11 @@
       - MessageTable (contains the foreign key of the doctor id)
   
  2- The DAO class contains the hole queries.
+ 
  3- Each Table have his own EntryModel.
+ 
  4- Each EntryModel have his own Repository Class that contains the business logic.
+ 
  5- Each Repository Class contains his own ViewModel.
+ 
  6- UI just calls the ViewModels Classes only.
